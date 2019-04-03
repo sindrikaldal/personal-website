@@ -7,14 +7,14 @@
     border-bottom: 3px solid black;
 }
 
-li  {
+.navigationBar ul li  {
     display: inline-block;
     padding: 30px;
     font-family: 'Lobster Two', cursive;
     background-color: white;
 }
 
-li button {
+.navigationBar ul li button {
     border: none;
     font: inherit;
     color: inherit;
@@ -22,11 +22,7 @@ li button {
     cursor: pointer;
 }
 
-li button:after {
-    background-color: transparent;
-}
-
-ul {
+.navigationBar ul  {
     list-style-type: none;
     width: 70%;
     margin: auto;

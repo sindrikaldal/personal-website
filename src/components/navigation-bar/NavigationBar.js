@@ -10,7 +10,7 @@ class NavigationBar extends Component {
             <ul>
               <li>
                 <ScrollIntoView selector="#home">
-                  <button>Home</button>
+                  <button>Top of the page</button>
                 </ScrollIntoView>
               </li>
               <li>
@@ -21,6 +21,11 @@ class NavigationBar extends Component {
               <li>
                 <ScrollIntoView selector="#projects">
                   <button>Projects</button>
+                </ScrollIntoView>
+              </li>
+              <li>
+                <ScrollIntoView selector="#contact">
+                  <button>Contact Me</button>
                 </ScrollIntoView>
               </li>
             </ul>

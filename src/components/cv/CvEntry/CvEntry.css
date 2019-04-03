@@ -1,8 +1,26 @@
-.cvContainer {
-    min-height: 100vh;
-    display:flex;
+.cvEntryContainer {
     align-items:center;
-    justify-content:center;
     text-align: center;
-    display: inline-block; 
+    width: 100%;
+}
+
+.cvEntryContainer h1 {
+    font-family: 'Lobster Two', cursive;
+}
+
+.cvEntryContainer show h4 {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+
+.cvEntryContainer hide {
+    display: none;
+}
+
+.cvEntryContainer button {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
 }

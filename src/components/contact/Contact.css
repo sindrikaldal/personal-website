@@ -1,0 +1,23 @@
+#contact {
+    background-color: #ffdae0
+}
+
+.contactContainer ul li  {
+    display: inline-block;
+    padding: 30px;
+}
+
+.contactContainer ul li button {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: white;
+    cursor: pointer;
+}
+
+.contactContainer ul  {
+    list-style-type: none;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
