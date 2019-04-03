@@ -31,3 +31,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+.mainContent {
+  width: 100%;
+}
+
+.col.s3{
+  height: 5vh;
+  width: 100%;
+}
