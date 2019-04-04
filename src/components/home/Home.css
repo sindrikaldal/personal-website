@@ -13,7 +13,7 @@
 }
 
 .portrait {
-    margin-top: 7%;
+    margin-top: 5%;
     width: 30%;
     vertical-align: middle;
     margin-bottom: 3%;
@@ -24,6 +24,6 @@
     width: 70%;
     display: block;
     margin: 0 auto;
-    font-size: 250%;
-    font-family: 'Lobster Two', cursive;
+    font-size: 2em;
+    font-family: 'Muli', sans-serif;
 }

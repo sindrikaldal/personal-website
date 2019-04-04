@@ -13,12 +13,10 @@ class App extends Component {
       <Router>
         <div className="">
             <NavigationBar/>
-            <div className="mainContent">
-              <Home/>
-              <CV/>
-              <Projects/>
-              <Contact/>
-            </div>
+            <Home/>
+            <CV/>
+            <Projects/>
+            <Contact/>
         </div>
 
         

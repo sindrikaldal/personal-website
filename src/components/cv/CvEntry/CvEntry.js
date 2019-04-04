@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './CvEntry.css';
+import Fade from 'react-reveal/Fade';
 
 class CvEntry extends Component {
   constructor() {
@@ -19,12 +20,14 @@ class CvEntry extends Component {
   
   render() {
     const descriptionClass = this.state.inputHidden ? 'hide' : 'show';
-    const buttonLabel = this.state.inputHidden ? 'fas fa-chevron-down' : 'fas fa-chevron-up'
+    const buttonLabel = this.state.inputHidden ? 'fas fa-chevron-down fa-2x' : 'fas fa-chevron-up fa-2x'
     return (
       <div className="cvEntryContainer">
           <h1>{this.props.title}</h1> <button onClick={this.toggleInput}><i class={buttonLabel}></i></button>
           <div className={descriptionClass}>
-            <h4>{this.props.description}</h4>
+            <Fade center>
+              <h4>{this.props.description}</h4>
+            </Fade>
           </div>
           
       </div>

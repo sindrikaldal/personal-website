@@ -8,6 +8,8 @@
     align-items:center;
     justify-content:center;
     text-align: center;
+    display: inline-block;
+    width: 100%;
 }
 
 .cvContainer Fade {

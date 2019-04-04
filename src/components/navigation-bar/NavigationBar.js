@@ -6,10 +6,11 @@ import ScrollIntoView from 'react-scroll-into-view'
 class NavigationBar extends Component {
   render() {
     return (
+      <div>
         <div className="navigationBar">
             <ul>
               <li>
-                <ScrollIntoView selector="#home">
+                <ScrollIntoView selector=".spacer">
                   <button>Top of the page</button>
                 </ScrollIntoView>
               </li>
@@ -30,6 +31,8 @@ class NavigationBar extends Component {
               </li>
             </ul>
         </div>  
+        <div className="spacer">&nbsp;</div>
+      </div>
     );
   }
 } 

@@ -1,17 +1,19 @@
 .cvEntryContainer {
-    align-items:center;
-    text-align: center;
     width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
 }
 
 .cvEntryContainer h1 {
     font-family: 'Lobster Two', cursive;
+    display: inline-block;
+    margin-right: 1%;
 }
 
-.cvEntryContainer show h4 {
-    font-family: 'Lato', sans-serif;
-    position: relative;
-}
+.cvEntryContainer .show h4 {
+    font-family: 'Muli', sans-serif;
+    font-size: 2em;}
 
 .cvEntryContainer hide {
     display: none;

@@ -10,9 +10,12 @@ class CV extends Component {
     
     return (
         <div id="cv">
+            <div className="spacer">&nbsp;</div>
             <div className="cvContainer">
-                <Fade left>
+                <Fade center>
                     <CvEntry title="WOW Air" description={StringConstants.WOW_AIR_DESCRIPTION}/>
+                </Fade>
+                <Fade center>
                     <CvEntry title="Síminn" description={StringConstants.SIMINN_DESCRIPTION}/>
                 </Fade>
             </div>
