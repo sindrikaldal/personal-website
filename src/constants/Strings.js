@@ -1,2 +1,3 @@
-export const WOW_AIR_DESCRIPTION = "Worked as a backend developer in a team that was responsible for ancillary related development projects";
+export const WOW_AIR_DESCRIPTION = "Worked as a backend developer in a team that was responsible for ancillary related development projects, such as implementing the new Manage Booking site from scratch";
 export const SIMINN_DESCRIPTION = "Worked as a summer employee for three years in a a row at Síminn where I was responsible for implementing and maintaing the website for the biggest girl soccer tournament in Iceland";
+export const ASSISTANT_TEACHER_DESCRIPTION = "Worked as an assistant teacher at both KTH and RU where I assisted students with their weekly programming assignments";

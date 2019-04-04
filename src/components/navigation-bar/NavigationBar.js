@@ -10,7 +10,7 @@ class NavigationBar extends Component {
         <div className="navigationBar">
             <ul>
               <li>
-                <ScrollIntoView selector=".spacer">
+                <ScrollIntoView selector="#home">
                   <button>Top of the page</button>
                 </ScrollIntoView>
               </li>
@@ -31,7 +31,6 @@ class NavigationBar extends Component {
               </li>
             </ul>
         </div>  
-        <div className="spacer">&nbsp;</div>
       </div>
     );
   }

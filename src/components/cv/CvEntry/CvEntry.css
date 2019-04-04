@@ -1,19 +1,29 @@
 .cvEntryContainer {
     width: 100%;
     margin: 0 auto;
-    display: inline-block;
-    text-align: center;
+    line-height: 50px;
 }
 
 .cvEntryContainer h1 {
     font-family: 'Lobster Two', cursive;
-    display: inline-block;
     margin-right: 1%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal; 
 }
 
 .cvEntryContainer .show h4 {
     font-family: 'Muli', sans-serif;
-    font-size: 2em;}
+    font-size: 2em;
+    display: inline-block;
+}
+
+.cvEntryContainer .show h5 {
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    display: inline-block;
+}
 
 .cvEntryContainer hide {
     display: none;
@@ -25,4 +35,18 @@
     color: inherit;
     background-color: transparent;
     cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal; 
+    margin-top: 15px;
+}
+
+.cvEntryContainer button:hover {
+    transform: scale(2) perspective(1px)
+}
+
+
+.cvEntryContent {
+    width: 50%;
+    margin: 0 auto;
 }
