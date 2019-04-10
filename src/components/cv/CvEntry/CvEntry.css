@@ -59,7 +59,7 @@
     background-color: #ffefd5
 }
 
-.cvEntryContainer button {
+.cvContainer .cvEntryContainer button {
     border: none;
     font: inherit;
     background-color: transparent;
@@ -70,23 +70,13 @@
     width: 100%;
 }
 
-.cvEntryContainer button::after {
-    background-color: black;
-}
-
 .cvEntryContainer.hovering {
     background-color:  #ffefd5;
 }
 
-.cvEntryContainer button:active {
-    background-color: transparent;
-    background: transparent;
-}
-
-.cvEntryContainer button:hover {
+.cvContainer .cvEntryContainer button:hover {
     transform: scale(1.1) perspective(1px);
 }
-
 
 .cvEntryContent {
     width: 50%;
