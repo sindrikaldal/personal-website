@@ -12,6 +12,14 @@
     width: 100%;
 }
 
+.cvContainer h3 {
+    font-family: 'Lobster Two', cursive; 
+}
+
+.cvContainer:not(:last-child) {
+    background-color:black;
+}
+
 .cvContainer Fade {
     text-align: center;
 }

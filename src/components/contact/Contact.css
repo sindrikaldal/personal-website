@@ -7,12 +7,12 @@
     padding: 30px;
 }
 
-.contactContainer ul li button {
-    border: none;
-    font: inherit;
-    color: inherit;
-    background-color: white;
-    cursor: pointer;
+.contactContainer ul li a i:hover {
+    color:black;
+}
+
+.contactContainer ul li button:hover {
+    color:white;
 }
 
 .contactContainer ul  {

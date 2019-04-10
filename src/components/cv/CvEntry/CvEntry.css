@@ -1,48 +1,90 @@
-.cvEntryContainer {
-    width: 100%;
-    margin: 0 auto;
-    line-height: 50px;
+
+
+@media screen and (max-width : 400px)
+{
+    .cvEntryContainer h1 {
+        font-family: 'Poiret One', cursive;
+        margin-right: 1%;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1em;
+        line-height: normal; 
+        font-size: 3em;
+    }
+    
+    .cvEntryContainer .show h4 {
+        font-family: 'Poiret One', cursive;
+        font-size: 1.25em;
+        display: inline-block;
+    }
+    
+    .cvEntryContainer .show h5 {
+        font-family: 'Poiret One', cursive;
+        font-size: 1em;
+        font-style: italic;
+        display: inline-block;
+
+    }
+}
+@media screen and (max-width : 2500px)
+{
+    .cvEntryContainer h1 {
+        font-family: 'Poiret One', cursive;
+        margin-right: 1%;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal; 
+        font-size: 4em;
+    }
+    
+    .cvEntryContainer .showDescription h4 {
+        font-family: 'Poiret One', cursive;
+        font-size: 2em;
+        display: inline-block;
+    }
+    
+    .cvEntryContainer .showDescription h5 {
+        font-family: 'Poiret One', cursive;
+        font-size: 1.5em;
+        font-style: italic;
+        display: inline-block;
+    }
 }
 
-.cvEntryContainer h1 {
-    font-family: 'Lobster Two', cursive;
-    margin-right: 1%;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal; 
-}
-
-.cvEntryContainer .show h4 {
-    font-family: 'Muli', sans-serif;
-    font-size: 2em;
-    display: inline-block;
-}
-
-.cvEntryContainer .show h5 {
-    font-family: 'Muli', sans-serif;
-    font-size: 1.5em;
-    font-style: italic;
-    display: inline-block;
-}
-
-.cvEntryContainer hide {
+.cvEntryContainer .hideDescription {
     display: none;
+}
+
+.cvEntryContainer.showContainer {
+    background-color: #ffefd5
 }
 
 .cvEntryContainer button {
     border: none;
     font: inherit;
-    color: inherit;
     background-color: transparent;
     cursor: pointer;
-    display: inline-block;
     vertical-align: middle;
     line-height: normal; 
-    margin-top: 15px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.cvEntryContainer button::after {
+    background-color: black;
+}
+
+.cvEntryContainer.hovering {
+    background-color:  #ffefd5;
+}
+
+.cvEntryContainer button:active {
+    background-color: transparent;
+    background: transparent;
 }
 
 .cvEntryContainer button:hover {
-    transform: scale(2) perspective(1px)
+    transform: scale(1.1) perspective(1px);
 }
 
 

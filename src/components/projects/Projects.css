@@ -8,5 +8,10 @@
     align-items:center;
     justify-content:center;
     text-align: center;
-    display: inline-block; 
+    display: inline-block;
+    width: 100%;
+}
+
+.projectContainer h3 {
+    font-family: 'Lobster Two', cursive;
 }

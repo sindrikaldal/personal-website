@@ -12,12 +12,14 @@ class CV extends Component {
         <div id="cv">
             <div className="spacer">&nbsp;</div>
             <div className="cvContainer">
+                <h3> CV </h3>
                 <Fade center>
                     <CvEntry 
-                        title="WOW Air" 
+                        title="Wow Air" 
                         description={StringConstants.WOW_AIR_DESCRIPTION}
                         startDate="August 2018"
                         endDate="March 2019"
+                        techStack={["C#", ".NET Core", "Scala"]}
                     />
                 </Fade>
                 <Fade center>
@@ -26,6 +28,7 @@ class CV extends Component {
                         description={StringConstants.SIMINN_DESCRIPTION}
                         startDate="Summer between 2015"
                         endDate="2017"
+                        techStack={["Javascript", "Angular", "HTML/CSS"]}
                     />
                 </Fade>
                 <Fade center>
@@ -34,6 +37,7 @@ class CV extends Component {
                         description={StringConstants.ASSISTANT_TEACHER_DESCRIPTION}
                         startDate="Various semesters between 2014"
                         endDate="2017"
+                        techStack={["C++", "Python", "Erlang"]}
                     />
                 </Fade>
             </div>

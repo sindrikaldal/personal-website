@@ -7,7 +7,8 @@ class Projects extends Component {
       <div id="projects">
         <div className="spacer">&nbsp;</div>
         <div className="projectContainer">
-            fsadfsdafs
+            <h3> Projects </h3>  
+            Coming Soon...
         </div>
       </div>      
       

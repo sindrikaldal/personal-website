@@ -7,7 +7,8 @@ class CvEntry extends Component {
     super();
 
     this.state = {
-      inputHidden: true
+      inputHidden: true,
+      hovering: false
     }
   }
 
@@ -16,19 +17,35 @@ class CvEntry extends Component {
       inputHidden: !this.state.inputHidden
     })
   };
+
+  hoverOn = () => {
+    this.setState({
+      hovering: true
+    })
+  };
+
+  hoverOff = () => {
+    this.setState({
+      hovering: false
+    })
+  };
   
   
   render() {
-    const descriptionClass = this.state.inputHidden ? 'hide' : 'show';
-    const buttonLabel = this.state.inputHidden ? 'fas fa-chevron-down fa-2x' : 'fas fa-chevron-up fa-2x'
+    const descriptionClass = this.state.inputHidden ? 'hideDescription' : 'showDescription';
+    const containerClass = this.state.inputHidden ? 'hideContainer' : 'showContainer';
+    const headLineClass = this.state.hovering ? 'hovering' : 'notHovering'
     return (
-      <div className="cvEntryContainer">
-          <h1>{this.props.title}</h1> <button onClick={this.toggleInput}><i className={buttonLabel}></i></button>
+      <div className={["cvEntryContainer", containerClass, headLineClass].join(' ')}>
+          <button onClick={this.toggleInput} onMouseEnter={this.hoverOn} onMouseLeave={this.hoverOff}><h1>{this.props.title}</h1></button>
           <div className={descriptionClass}>
             <Fade center>
               <div className="cvEntryContent">
-                <h4>{this.props.description}</h4>
                 <h5>{this.props.startDate} - {this.props.endDate}</h5>
+                <h4>{this.props.description}</h4>
+                <h5>
+                  {this.props.techStack.join(" - ")}
+                </h5>   
               </div>  
             </Fade>
           </div>
