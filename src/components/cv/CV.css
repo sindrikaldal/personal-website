@@ -14,6 +14,7 @@
 
 .cvContainer h3 {
     font-family: 'Lobster Two', cursive; 
+    font-size: 5em;
 }
 
 .cvContainer:not(:last-child) {
