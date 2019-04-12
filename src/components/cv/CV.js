@@ -15,7 +15,7 @@ class CV extends Component {
                 <h3> CV </h3>
                 <Fade center>
                     <CvEntry 
-                        title="Wow Air" 
+                        title="WOW Air" 
                         description={StringConstants.WOW_AIR_DESCRIPTION}
                         startDate="August 2018"
                         endDate="March 2019"

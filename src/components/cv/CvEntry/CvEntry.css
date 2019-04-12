@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width : 400px)
+@media screen and (max-width : 500px)
 {
     .cvEntryContainer h1 {
         font-family: 'Poiret One', cursive;
@@ -10,6 +10,11 @@
         font-size: 1em;
         line-height: normal; 
         font-size: 3em;
+    }
+
+    .cvEntryContent {
+        width: 80%;
+        margin: 0 auto;
     }
     
     .cvEntryContainer .show h4 {
@@ -71,14 +76,13 @@
 }
 
 .cvContainer .cvEntryContainer button i {
+    margin: 0; 
     display: inline-block;
-    height: 100%;
-    padding-left: 5%;
-    padding-top: 5%;
-    margin-bottom: 0; 
+    vertical-align: middle;
+    padding-left: 10%;
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:500px) {
     .cvContainer .cvEntryContainer button:hover {
         background-color: #ffefd5;
     }
@@ -86,9 +90,9 @@
     .cvContainer .cvEntryContainer button i {
         display: none;
     }
-}
 
-.cvEntryContent {
-    width: 50%;
-    margin: 0 auto;
+    .cvEntryContent {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
