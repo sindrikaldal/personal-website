@@ -19,9 +19,10 @@ class CvEntry extends Component {
   render() {
     const descriptionClass = this.state.inputHidden ? 'hideDescription' : 'showDescription';
     const containerClass = this.state.inputHidden ? 'hideContainer' : 'showContainer';
+    const chevronClass = this.state.inputHidden ? 'fas fa-chevron-down fa-2x' : 'fas fa-chevron-up fa-2x';
     return (
       <div className={["cvEntryContainer", containerClass].join(' ')}>
-          <button onClick={this.toggleInput}><h1>{this.props.title}</h1></button>
+          <button onClick={this.toggleInput}><h1>{this.props.title}</h1><i class={chevronClass}></i></button>
           <div className={descriptionClass}>
             <div className="cvEntryContent">
               <h5>{this.props.startDate} - {this.props.endDate}</h5>

@@ -70,8 +70,22 @@
     width: 100%;
 }
 
-.cvContainer .cvEntryContainer button:hover {
-    transform: scale(1.3) perspective(1px);
+.cvContainer .cvEntryContainer button i {
+    display: inline-block;
+    height: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
+    margin-bottom: 0; 
+}
+
+@media screen and (min-width:700px) {
+    .cvContainer .cvEntryContainer button:hover {
+        background-color: #ffefd5;
+    }
+
+    .cvContainer .cvEntryContainer button i {
+        display: none;
+    }
 }
 
 .cvEntryContent {
