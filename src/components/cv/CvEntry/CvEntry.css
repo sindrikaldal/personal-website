@@ -3,7 +3,7 @@
 @media screen and (max-width : 500px)
 {
     .cvEntryContainer h1 {
-        font-family: 'Poiret One', cursive;
+        font-family: 'Oswald', sans-serif;
         margin-right: 1%;
         display: inline-block;
         vertical-align: middle;
@@ -18,13 +18,13 @@
     }
     
     .cvEntryContainer .show h4 {
-        font-family: 'Poiret One', cursive;
+        font-family: 'Cardo', serif;
         font-size: 1.25em;
         display: inline-block;
     }
     
     .cvEntryContainer .show h5 {
-        font-family: 'Poiret One', cursive;
+        font-family: 'Cardo', serif;
         font-size: 1em;
         font-style: italic;
         display: inline-block;
@@ -34,7 +34,7 @@
 @media screen and (max-width : 2500px)
 {
     .cvEntryContainer h1 {
-        font-family: 'Poiret One', cursive;
+        font-family: 'Oswald', sans-serif;
         margin-right: 1%;
         display: inline-block;
         vertical-align: middle;
@@ -43,13 +43,13 @@
     }
     
     .cvEntryContainer .showDescription h4 {
-        font-family: 'Poiret One', cursive;
+        font-family: 'Cardo', serif;
         font-size: 2em;
         display: inline-block;
     }
     
     .cvEntryContainer .showDescription h5 {
-        font-family: 'Poiret One', cursive;
+        font-family: 'Cardo', serif;
         font-size: 1.5em;
         font-style: italic;
         display: inline-block;

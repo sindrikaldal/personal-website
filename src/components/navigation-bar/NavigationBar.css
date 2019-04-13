@@ -14,7 +14,7 @@
 
     .navigationBar ul li  {
         display: inline-block;
-        font-family: 'Lobster Two', cursive;
+        font-family: 'Montserrat', sans-serif;
         background-color: white;
         min-height: 60px;
         padding-top: 15px;
@@ -53,7 +53,7 @@
 
     .navigationBar ul li  {
         display: inline-block;
-        font-family: 'Lobster Two', cursive;
+        font-family: 'Montserrat', sans-serif;
         background-color: white;
         min-height: 60px;
         padding-top: 15px;

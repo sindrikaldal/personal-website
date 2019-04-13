@@ -12,7 +12,7 @@ class CV extends Component {
         <div id="cv">
             <div className="spacer">&nbsp;</div>
             <div className="cvContainer">
-                <h3> CV </h3>
+                <h3> Work Experience </h3>
                 <Fade center>
                     <CvEntry 
                         title="WOW Air" 
