@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
     .navigationBar {
         width: 100%;
         margin-left: auto ;
@@ -9,7 +9,7 @@
         position: fixed;
         border-bottom: 3px solid black;
         z-index: 500;
-        font-size: 0.85em;
+        font-size: 0.8em;
     }
 
     .navigationBar ul li  {
@@ -34,12 +34,12 @@
     
     .navigationBar ul  {
         list-style-type: none;
-        width: 70%;
+        width: 100%;
         margin: auto;
         text-align: center;
     }
 }
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 500px) {
 
     .navigationBar {
         width: 100%;

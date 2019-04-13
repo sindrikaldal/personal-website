@@ -12,9 +12,21 @@
     width: 100%;
 }
 
-.cvContainer h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 5em;
+@media screen and (max-width: 500px) {
+    .cvContainer h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3em;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    } 
+}
+
+@media screen and (min-width: 500px) {
+    .cvContainer h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5em;
+    }
 }
 
 .cvContainer:not(:last-child) {
